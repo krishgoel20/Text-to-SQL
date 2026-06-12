@@ -77,7 +77,7 @@ text-to-sql/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/text-to-sql.git
+git clone https://github.com/krishgoel20/text-to-sql.git
 cd text-to-sql
 ```
 
@@ -126,13 +126,13 @@ Visit **http://localhost:5500** in your browser.
 ## Sample Queries to Try
 
 ```
-Show all customers from Mumbai
+Show all customers from Mumbai.
 Which products cost more than 10000?
-Show all electronics products
+Show all electronics products.
 What is the total amount of all orders?
 Which customer placed the most orders?
-Add a new customer named John Doe from Delhi with email john@gmail.com
-Update Amit Sharma's city to Bangalore
+Add a new customer named John Doe from Delhi with email john@gmail.com.
+Update Amit Sharma's city to Bengaluru.
 ```
 
 ---
