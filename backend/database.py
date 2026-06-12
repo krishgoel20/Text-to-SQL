@@ -104,7 +104,7 @@ def seed_database():
         [
             ("Amit Sharma", "amit@gmail.com",  "Mumbai",    "2023-01-15"),
             ("Priya Patel", "priya@gmail.com", "Delhi",     "2023-03-22"),
-            ("Rahul Verma", "rahul@gmail.com", "Bangalore", "2023-05-10"),
+            ("Rahul Verma", "rahul@gmail.com", "Bengaluru", "2023-05-10"),
             ("Sneha Iyer",  "sneha@gmail.com", "Chennai",   "2023-07-08"),
             ("Karan Mehta", "karan@gmail.com", "Pune",      "2023-09-30"),
         ]
