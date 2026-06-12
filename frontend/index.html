@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Text-to-SQL Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Text-to-SQL Engine</h1>
+      <p class="subtitle">Ask questions about the database in plain English</p>
+    </header>
+
+    <div class="input-row">
+      <input
+        type="text"
+        id="question-input"
+        placeholder="e.g. Show all customers from Delhi"
+      />
+      <button id="ask-btn" onclick="askQuestion()">Ask</button>
+    </div>
+
+    <div id="error-box" class="error-box hidden"></div>
+
+    <div id="results" class="hidden">
+
+      <div class="sql-box">
+        <span class="label">Generated SQL</span>
+        <pre id="sql-output"></pre>
+      </div>
+
+      <div class="table-wrapper">
+        <span class="label">Query Results</span>
+        <table id="result-table">
+          <thead id="table-head"></thead>
+          <tbody id="table-body"></tbody>
+        </table>
+        <p id="row-count"></p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
