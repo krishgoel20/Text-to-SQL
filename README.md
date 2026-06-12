@@ -1,13 +1,13 @@
 # Text-to-SQL Engine
 
-A full-stack AI-powered web application that converts plain English questions
+A full-stack AI-powered web application that converts plain English questions/requests
 into SQL queries and executes them on a live MySQL database in real time.
 
 ---
 
 ## What it does
 
-- Type a question in plain English
+- Type a question/request in plain English
 - The LLM generates the appropriate SQL query using live database schema
 - The query executes on a MySQL database
 - Results are displayed in a clean table
@@ -31,13 +31,13 @@ DELETE and DROP are blocked for safety.
 ## How it works
 
 ```
-User question
+User question/request
 ↓
-FastAPI receives the question
+FastAPI receives the question/request
 ↓
 database.py extracts live MySQL schema
 ↓
-llm.py injects schema + question into Groq prompt
+llm.py injects schema + question/request into Groq prompt
 ↓
 LLM returns a SQL query
 ↓
@@ -154,7 +154,7 @@ Update Amit Sharma's city to Bengaluru.
 
 ## Limitations
 
-- Same prompt/question may produce different SQL queries on different runs
+- Same question/request may produce different SQL queries on different runs
   due to LLM non-determinism
 - No query history stored between sessions
 - Not deployed (runs locally only)
