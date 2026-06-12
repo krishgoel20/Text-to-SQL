@@ -30,6 +30,7 @@ DELETE and DROP are blocked for safety.
 
 ## How it works
 
+```
 User question
 ↓
 FastAPI receives the question
@@ -43,11 +44,13 @@ LLM returns a SQL query
 Python executes the query on MySQL
 ↓
 Result displayed as a table in the UI
+```
 
 ---
 
 ## Project Structure
 
+```
 text-to-sql/
 ├── backend/
 │   ├── main.py          # FastAPI app, routes, startup seeding
@@ -60,6 +63,7 @@ text-to-sql/
 ├── index.html       # App structure
 ├── style.css        # Dark theme styling
 └── script.js        # API calls, table rendering
+```
 
 ---
 
@@ -90,12 +94,14 @@ pip install -r requirements.txt
 
 Create a `.env` file inside the `backend/` folder:
 
+```
 GROQ_API_KEY=your_groq_api_key_here
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=your_mysql_password
 DB_NAME=ecommerce_db
+```
 
 ### 4. Run the backend
 
@@ -119,6 +125,7 @@ Visit **http://localhost:5500** in your browser.
 
 ## Sample Queries to Try
 
+```
 Show all customers from Mumbai
 Which products cost more than 10000?
 Show all electronics products
@@ -126,6 +133,7 @@ What is the total amount of all orders?
 Which customer placed the most orders?
 Add a new customer named John Doe from Delhi with email john@gmail.com
 Update Amit Sharma's city to Bangalore
+```
 
 ---
 
