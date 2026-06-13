@@ -24,7 +24,7 @@ DELETE and DROP are blocked for safety.
 | Backend  | Python, FastAPI                   |
 | AI / LLM | Groq API (llama-3.1-8b-instant)   |
 | Database | MySQL                             |
-| Frontend | HTML, CSS, JavaScript             |
+| Frontend | HTML, CSS, JS             |
 
 ---
 
