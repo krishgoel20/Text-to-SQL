@@ -1,7 +1,6 @@
 # Text-to-SQL Engine
 
-A full-stack AI-powered web application that converts plain English questions/requests
-into SQL queries and executes them on a live MySQL database in real time.
+A full-stack AI-powered web application that converts plain English questions/requests into SQL queries and executes them on a live MySQL database in real time.
 
 ---
 
@@ -24,7 +23,7 @@ DELETE and DROP are blocked for safety.
 | Backend  | Python, FastAPI                   |
 | AI / LLM | Groq API (llama-3.1-8b-instant)   |
 | Database | MySQL                             |
-| Frontend | HTML, CSS, JS             |
+| Frontend | HTML, CSS, JS                     |
 
 ---
 
