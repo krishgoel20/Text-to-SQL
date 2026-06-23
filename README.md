@@ -50,7 +50,7 @@ Result displayed as a table in the UI
 ## Project Structure
 
 ```
-text-to-sql/
+Text-to-SQL/
 ├── backend/
 │   ├── main.py          # FastAPI app, routes, startup seeding
 │   ├── database.py      # MySQL connection, schema extractor,
@@ -68,7 +68,7 @@ text-to-sql/
 
 ## Setup and Installation
 
-### Prerequisites
+### Pre-requisites
 - Python 3.10+
 - MySQL Community Server
 - Groq API key (free at https://console.groq.com)
