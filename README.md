@@ -59,9 +59,9 @@ Text-to-SQL/
 │   ├── .env             # API keys and DB credentials (not committed)
 │   └── requirements.txt
 └── frontend/
-├── index.html       # App structure
-├── style.css        # Dark theme styling
-└── script.js        # API calls, table rendering
+    ├── index.html       # App structure
+    ├── style.css        # Dark theme styling
+    └── script.js        # API calls, table rendering
 ```
 
 ---
