@@ -75,8 +75,8 @@ Text-to-SQL/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/krishgoel20/text-to-sql.git
-cd text-to-sql
+git clone https://github.com/krishgoel20/Text-to-SQL.git
+cd Text-to-SQL
 ```
 
 ### 2. Set up the backend
