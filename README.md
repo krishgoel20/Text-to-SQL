@@ -53,8 +53,7 @@ Result displayed as a table in the UI
 Text-to-SQL/
 ├── backend/
 │   ├── main.py          # FastAPI app, routes, startup seeding
-│   ├── database.py      # MySQL connection, schema extractor,
-│   │                    # query runner, seed function
+│   ├── database.py      # MySQL connection, schema extractor, query runner, seed function
 │   ├── llm.py           # Groq API call, SQL generator
 │   ├── .env             # API keys and DB credentials (not committed)
 │   └── requirements.txt
