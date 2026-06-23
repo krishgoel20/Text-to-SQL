@@ -137,24 +137,18 @@ Update Amit Sharma's city to Bengaluru.
 
 ## Key Concepts Demonstrated
 
-- **Prompt engineering** — live schema is injected into every LLM prompt
-  so the model always generates schema-aware SQL
-- **Schema-aware querying** — the app reads the actual database structure
-  at runtime, not hardcoded table names
-- **Database seeding** — entire database builds itself from Python code
-  on every server start, no manual setup needed
-- **Full-stack integration** — FastAPI backend, MySQL database,
-  and vanilla JS frontend working together
-- **Safety guardrails** — DELETE and DROP statements are blocked
-  at the prompt level
+- **Prompt engineering** — live schema is injected into every LLM prompt so the model always generates schema-aware SQL.
+- **Schema-aware querying** — the app reads the actual database structure at runtime, not hardcoded table names.
+- **Database seeding** — entire database builds itself from Python code on every server start, no manual setup needed.
+- **Full-stack integration** — FastAPI backend, MySQL database, and vanilla JS frontend working together.
+- **Safety guardrails** — DELETE and DROP statements are blocked at the prompt level.
 
 ---
 
 ## Limitations
 
-- Same question/request may produce different SQL queries on different runs
-  due to LLM non-determinism
-- No query history stored between sessions
-- Not deployed (runs locally only)
+- Same question/request may produce different SQL queries on different runs due to LLM non-determinism.
+- No query history stored between sessions.
+- Not deployed (runs locally only).
 
 ---
